@@ -69,7 +69,7 @@ We initially built the schema of the database using ERD Technique . We created t
 - Playstation Exclusive games has taken the leads in the ratings
 
 ### Conclusion 
-This analysis illustrated  ETL procedure where the json data is retrived from the https://api.rawg.io/docs/. We used pandas organise the json data into dataframe. We used inline graphs to analyse the data. And postgress SQL to load data into databse for further analysis. RAWG databse has more 350,000 records we had to limit data retrieved and also considering ELT approach in the future.
+This analysis illustrated  ETL procedure - where the json data is retrived from the https://api.rawg.io/docs/ , we used pandas to insert the json data into pandas dataframe, we used inline graphs to analyse the data and postgress SQL to load info into database for further analysis. RAWG databse has more 350,000 records, so we had to limit the data retrieved and also would be considering ELT approach in the future.
 
 
 
