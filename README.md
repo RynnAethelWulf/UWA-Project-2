@@ -72,13 +72,9 @@ We initially built the schema of the database using ERD Technique . We created t
 
 ## ✍️ Observable Trends <a name = "trends"></a>
 - PC games has majority in the video games collection
-
-**Console**
 ![Console](https://github.com/bimalkprabha/UWA-Project-2/blob/main/Resources/Consolevsgames.png)
 
 - Most sought after genre is "Casual" followed by "Indie"
-
-**Genre**
 ![Genre](https://github.com/bimalkprabha/UWA-Project-2/blob/main/Resources/Genrevsgames.png)
 
 - True Rating of the game depends on the Rating_Count
