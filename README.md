@@ -32,7 +32,7 @@
 •	Ezra Tassone
 •	Parastoo Razavi
 •	Bimal Prabha
-
+•	Tim
 
 ## 🧐 About <a name = "about"></a>
 **Description:**
@@ -57,14 +57,30 @@ Once the data is in the target system, organizations can run whatever transforma
 We clean our data by removing the 'None' values specifically from games_id,platform_id,store_id since these represetn primary and foreign keys respectively.
 We use aggrate techniques to sort the most number of games in a specific genre.
 
+##### Top 20 Games within 2020 -2017
+![Top 20](https://github.com/bimalkprabha/UWA-Project-2/blob/main/Resources/top20.png)
+
+
 **Loading** <br>
 During the loading step, the pipeline replicates data from the source into the target system, which might be a storage system - Postgress SQL.
 We initially built the schema of the database using ERD Technique . We created three databses to load games, store and platform information. We use platform_id and store_id as the linking keys between the data tables.After setting the datatypes we loaded data from the pandas dataframe into sql using SQL ALchemy. We also checked the authenticity of the db by performing a join on these three tables.
+</br>
+
+##### ERD Schema
+![ERD Diagram](https://github.com/bimalkprabha/UWA-Project-2/blob/main/Resources/ERD.png)
 
 
 ## ✍️ Observable Trends <a name = "trends"></a>
 - PC games has majority in the video games collection
+
+**Console**
+![Console](https://github.com/bimalkprabha/UWA-Project-2/blob/main/Resources/Consolevsgames.png)
+
 - Most sought after genre is "Casual" followed by "Indie"
+
+**Genre**
+![Genre](https://github.com/bimalkprabha/UWA-Project-2/blob/main/Resources/Genrevsgames.png)
+
 - True Rating of the game depends on the Rating_Count
 - Playstation Exclusive games has taken the leads in the ratings
 
